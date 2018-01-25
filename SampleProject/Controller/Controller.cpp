@@ -17,10 +17,12 @@ Controller :: Controller()
 
 void Controller :: start()
 {
-    for (int index = 0; index < 10; index ++)
+    string name = "Matthew";
+    for (int index = 13; index < 32; index ++)
     {
         cout << "This loop has executed " << index + 1 << " times" << endl;
     }
+    cout << "The address of the my name is " << &name << endl;
 }
 
 void Controller :: createArray()
