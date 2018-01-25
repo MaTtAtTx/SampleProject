@@ -22,3 +22,13 @@ void Controller :: start()
         cout << "This loop has executed " << index + 1 << " times" << endl;
     }
 }
+
+void Controller :: createArray()
+{
+    double balance[10] = {1.1, 2.2, 3.3, 4.4, 5.5, 6.6, 7.7, 8.8, 9.9, 11.0};
+    
+    for (int index = 0; index < 10; index++)
+    {
+        cout << "The account balance is " << balance[index] * balance[index] << endl;
+    }
+}

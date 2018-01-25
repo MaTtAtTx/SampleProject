@@ -12,4 +12,5 @@ int main()
 {
     Controller app;
     app.start();
+    app.createArray();  
 }
