@@ -20,7 +20,7 @@ void Controller :: start()
     string name = "Matthew";
     for (int index = 13; index < 32; index ++)
     {
-        cout << "This loop has executed " << index + 1 << " times" << endl;
+        cout << "This loop has executed " << index  << " times" << endl;
     }
     cout << "The address of the my name is " << &name << endl;
 }
